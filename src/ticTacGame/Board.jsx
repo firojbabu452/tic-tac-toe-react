@@ -45,7 +45,8 @@ const Board = () => {
         <>{isWinner} won the game <button onClick ={handleReset}>Play Again</button></>
       ) : (
         <>
-        <h2 color='blue'>Player {isXTurn ? "First" : "Second"} Please move</h2>
+         <h1>Tic-Tac-Toe</h1>
+        <h2 color='blue'>Player {isXTurn ? "X" : "O"} Please move</h2>
           <div className="board-row">
             <Square onClick={() => handleClick(0)} value={state[0]} />
             <Square onClick={() => handleClick(1)} value={state[1]} />
@@ -63,7 +64,7 @@ const Board = () => {
           </div>
         </>
       )}
-
+          <h4>Developed by Firoj Sardar</h4>
     </div>
   );
 };
