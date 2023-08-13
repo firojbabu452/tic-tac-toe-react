@@ -5,5 +5,14 @@
 }
 
 .board-container{
-  margin: 20px;
+  margin: 25px;
+  
+}
+.board-container h2{
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.board-row{
+  background-color: aqua;
+  
 }
