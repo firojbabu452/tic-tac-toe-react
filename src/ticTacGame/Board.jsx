@@ -46,7 +46,7 @@ const Board = () => {
       ) : (
         <>
          <h1>Tic-Tac-Toe</h1>
-        <h2 color='blue'>Player {isXTurn ? "X" : "O"} Please move</h2>
+        <h2 color='red'>Player {isXTurn ? "X" : "O"} Please move</h2>
           <div className="board-row">
             <Square onClick={() => handleClick(0)} value={state[0]} />
             <Square onClick={() => handleClick(1)} value={state[1]} />
